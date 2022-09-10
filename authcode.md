@@ -1,5 +1,5 @@
 # Auth code
-We will be loggin in through an authentication code.
+We will be logging in in through an authentication code.
 
 - We will be using requests to send a post request to `https://account-public-service-prod.ol.epicgames.com/account/api/oauth/token` 
 
