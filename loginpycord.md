@@ -19,7 +19,6 @@ async def commandnamehere(ctx):
 ```python
 @Bot.slashcommand(description="your description here")
 async def commandnamehere(ctx, authcode: Option(str, "authcode here")):
-    check = await cursor.find_one({"discordid": ctx.author.id})
     url = f"https://account-public-service-prod.ol.epicgames.com/account/api/oauth/token"
     headers = {
         "Content-Type": f"application/x-www-form-urlencoded",
